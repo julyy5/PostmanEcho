@@ -6,6 +6,9 @@ branches:
   only:
     - main  # ветка git
 
+install:
+  -
+
 build: off  # будем использовать свой скрипт сборки
 
 build_script:
