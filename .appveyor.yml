@@ -7,7 +7,7 @@ branches:
     - main  # ветка git
 
 install:
-  -
+  - chmod +x gradlew
 
 build: off  # будем использовать свой скрипт сборки
 
