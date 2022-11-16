@@ -12,12 +12,12 @@ public class EchoTest {
         given()
                 .baseUri("https://postman-echo.com")
                 .contentType("text/plain; charset=UTF-8")
-                .body("Постман data")
+                .body("Постман")
                 .when()
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Постман data"))
+                .body("data", equalTo("Постман"))
         ;
     }
 }
